@@ -1,0 +1,18 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+
+# Telegram local authorization files. Never commit these.
+*.session
+*.session-journal
+
+# Generated private data.
+exports/
+reports/
+*_report.md
+
+# Local OS/editor files.
+.DS_Store
+.idea/
+.vscode/
